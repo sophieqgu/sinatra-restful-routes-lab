@@ -10,7 +10,7 @@ class ApplicationController < Sinatra::Base
   end
 
    #create
-  post '/recipes/new' do 
+  get '/recipes/new' do 
     erb :new
   end
 
